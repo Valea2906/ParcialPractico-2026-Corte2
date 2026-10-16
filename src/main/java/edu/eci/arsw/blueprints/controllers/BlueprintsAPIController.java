@@ -16,7 +16,7 @@ import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
-        import java.util.Map;
+import java.util.Map;
 import java.util.Set;
 
 @RestController
@@ -123,4 +123,3 @@ public class BlueprintsAPIController {
             @Valid java.util.List<Point> points
     ) { }
 }
-
